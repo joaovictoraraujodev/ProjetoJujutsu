@@ -1,3 +1,5 @@
+@use "historia";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -46,7 +48,7 @@ body {
     padding-right: 10px;
 
     img {
-      height: 26px;
+      height: 35px;
       cursor: pointer;
     }
 

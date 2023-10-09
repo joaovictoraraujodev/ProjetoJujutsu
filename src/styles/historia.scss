@@ -1,0 +1,71 @@
+.historia {
+  margin-top: 280px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 215px;
+  position: relative;
+  background-color: #8e4747;
+  padding-bottom: 16px;
+
+  &__descricao {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    p {
+      font-size: 10px;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+
+  &__img {
+    width: 130px;
+    text-align: center;
+    position: absolute;
+    top: -70;
+  }
+  @media (min-width: 744px) {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    position: relative;
+
+    &__descricao {
+      text-align: left;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 410px;
+    }
+
+    &__img {
+      width: 290px;
+      top: -130;
+      right: -10px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    margin-top: 50px;
+    height: 235px;
+
+    &__descricao {
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+      width: 600px;
+
+      p {
+        font-size: 1.5rem;
+      }
+    }
+
+    &__img {
+      width: 380px;
+      top: -172;
+      right: -10px;
+    }
+  }
+}
